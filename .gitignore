@@ -1,0 +1,59 @@
+.DS_Store
+
+chattyApp/node_modules
+chattyApp/npm-debug.log
+chattyApp/.DS_Store
+chattyApp/dist
+
+### PhpStorm ###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
+
+chattyApp/*.iml
+
+## Directory-based project format:
+chattyApp/.idea/
+# if you remove the above rule, at least ignore the following:
+
+# User-specific stuff:
+# .idea/workspace.xml
+# .idea/tasks.xml
+# .idea/dictionaries
+# .idea/shelf
+
+# Sensitive or high-churn files:
+# .idea/dataSources.ids
+# .idea/dataSources.xml
+# .idea/sqlDataSources.xml
+# .idea/dynamic.xml
+# .idea/uiDesigner.xml
+
+# Gradle:
+# .idea/gradle.xml
+# .idea/libraries
+
+# Mongo Explorer plugin:
+# .idea/mongoSettings.xml
+
+## File-based project format:
+chattyApp/*.ipr
+chattyApp/*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+/out/
+
+# mpeltonen/sbt-idea plugin
+chattyApp/.idea_modules/
+
+# JIRA plugin
+chattyApp/atlassian-ide-plugin.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+chattyApp/com_crashlytics_export_strings.xml
+chattyApp/crashlytics.properties
+chattyApp/crashlytics-build.properties
+chattyApp/fabric.properties
+
+chatty_server/node_modules
+chatty_server/.DS_Store
