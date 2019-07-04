@@ -52,7 +52,7 @@ class ChatBar extends Component {
     return (
       <footer className="chatbar" onKeyPress={this.handleEnter}>
         <input className="chatbar-username" placeholder="Your Name (Optional)" value={this.state.username} onChange={this.onUsername} onBlur={this.notOnUsername} maxLength="20" />
-        <input autoFocus className="chatbar-message" placeholder="Type a message and hit ENTER" value={this.state.content} onChange={this.onContent} maxLength="300" />
+        <input autoFocus className="chatbar-message" placeholder="Type a message or image url and hit ENTER" value={this.state.content} onChange={this.onContent} maxLength="300" />
       </footer>
     );
   }

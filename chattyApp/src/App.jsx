@@ -43,8 +43,8 @@ class App extends Component {
     return (
       <div>
         <nav className="navbar">
-          <a href="/" className="navbar-brand">Chatty</a>
-          {this.state.onlineUsers && <strong className="navbar-onlineUsers" > {this.state.onlineUsers} users online </strong>}
+          <a href="/" className="navbar-brand"> 🗣 Chatty </a>
+          {this.state.onlineUsers && <strong className="navbar-onlineUsers" > {this.state.onlineUsers} users online❗️ </strong>}
         </nav>
 
         <MessageList messages={this.state.messages} />
