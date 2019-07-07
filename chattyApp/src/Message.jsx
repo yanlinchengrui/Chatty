@@ -6,7 +6,7 @@ class Message extends Component {
 
     let wordContent = this.props.content.split(' ');
 
-    const images = this.props.content.match(/(http(s?):)([/|.|\w|\s|-])*\.(?:jpg|gif|png)/g);
+    const images = this.props.content.match(/(http(s?):)([/|.|\w|\s|-])*\.(?:jpg|gif|png|jpeg)/g);
 
     const rezContent = images ? wordContent.map((each, i) => {
       for (const image of images) {
